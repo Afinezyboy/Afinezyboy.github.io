@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learn Python on 遥想</title>
+    <link>https://afinezyboy.github.io/coding/learnpython/</link>
+    <description>Recent content in Learn Python on 遥想</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 Yu Zhang
+</copyright>
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://afinezyboy.github.io/coding/learnpython/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 1 战前动员</title>
+      <link>https://afinezyboy.github.io/coding/learnpython/chapter-1-why-python/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/coding/learnpython/chapter-1-why-python/</guid>
+      <description>战前动员 在高中的时候，我的好朋友东杰送我了一本清华大学谭浩强的《C程序设计》，也正是在那一刻，我开启</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2 安装Python</title>
+      <link>https://afinezyboy.github.io/coding/learnpython/chapter-2-installation/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/coding/learnpython/chapter-2-installation/</guid>
+      <description>安装Python 安装Python非常非常简单，并且免费。访问这个网站：https://www.pyt</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3 配置开发环境</title>
+      <link>https://afinezyboy.github.io/coding/learnpython/chapter-3-configure-ide/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/coding/learnpython/chapter-3-configure-ide/</guid>
+      <description>配置开发环境 刚才提到，安装完python后可以通过命令提示行cmd进入到python的运行环境中，但</description>
+    </item>
+    
+  </channel>
+</rss>

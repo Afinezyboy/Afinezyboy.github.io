@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  
+><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Chapter 3 使用模板 | Learn Hugo | 遥想</title>
+
+<meta name="generator" content="Hugo Eureka 0.9.0" />
+<link rel="stylesheet" href="https://afinezyboy.github.io/css/eureka.min.4e2853cb05c8b91a551eaa17c4915e2443a51bdf286abd7791ee337a316819f075844915cdb300d1b3e581432edd9199.css" integrity="sha384-TihTywXIuRpVHqoXxJFeJEOlG98oar13ke4zejFoGfB1hEkVzbMA0bPlgUMu3ZGZ">
+<script defer src="https://afinezyboy.github.io/js/eureka.min.f1639ee98d6cbd85b2b5f034d27320da962002ff83159ed4e01dbc5948c42a1ab26c2d6e74c66e93f5cec4d24dbd166d.js" integrity="sha384-8WOe6Y1svYWytfA00nMg2pYgAv&#43;DFZ7U4B28WUjEKhqybC1udMZuk/XOxNJNvRZt"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+
+<script defer type="text/javascript" src="https://afinezyboy.github.io/js/fontawesome.min.7a517ee79e430ca7b6d02ec6f4f2b39bcb6987e39d03cdf8b7dc274c0c00e2f141cddc618cf5a974dd4919d5b16af9a1.js" integrity="sha384-elF&#43;555DDKe20C7G9PKzm8tph&#43;OdA834t9wnTAwA4vFBzdxhjPWpdN1JGdWxavmh"></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://afinezyboy.github.io/images/web_icon_hu92dfcf79b68123166b65c6f1cd7ebdb8_4624_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://afinezyboy.github.io/images/web_icon_hu92dfcf79b68123166b65c6f1cd7ebdb8_4624_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Docs",
+      "item":"https://afinezyboy.github.io/coding/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Learn Hugo",
+      "item":"https://afinezyboy.github.io/coding/learnhugo/"},{
+      "@type": "ListItem",
+      "position": 3 ,
+      "name":"Chapter 3 使用模板",
+      "item":"https://afinezyboy.github.io/coding/learnhugo/hugolearn/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://afinezyboy.github.io/coding/learnhugo/hugolearn/"
+    },
+    "headline": "Chapter 3 使用模板 | Learn Hugo | 遥想","datePublished": "2020-10-16T00:00:00+00:00",
+    "dateModified": "2020-10-16T00:00:00+00:00",
+    "wordCount":  1274 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Y. Zhang",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://afinezyboy.github.io/images/web_icon.png"
+        }
+        },
+    "description": "使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（"
+}
+</script><meta property="og:title" content="Chapter 3 使用模板 | Learn Hugo | 遥想" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://afinezyboy.github.io/images/web_icon.png">
+
+
+<meta property="og:url" content="https://afinezyboy.github.io/coding/learnhugo/hugolearn/" />
+
+
+
+
+<meta property="og:description" content="使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（" />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="遥想" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2020-10-16T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2020-10-16T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="coding" />
+
+
+
+
+
+  <body class="flex min-h-screen flex-col">
+    <header
+      class="min-h-16 pl-scrollbar bg-secondary-bg fixed z-50 flex w-full items-center shadow-sm"
+    >
+      <div class="mx-auto w-full max-w-screen-xl"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="me-6 text-primary-text text-xl font-bold">遥想</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">主页</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">博客</a>
+            <a href="/coding/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">文档</a>
+            <a href="/memories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">彩蛋！</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+    </header>
+    <main class="grow pt-16">
+        <div class="pl-scrollbar">
+          <div class="mx-auto w-full max-w-screen-xl lg:px-4 xl:px-8">
+
+
+<div class="lg:pt-12">
+    <div class="flex flex-col md:flex-row bg-secondary-bg rounded">
+        <div class="md:w-1/4 lg:w-1/5 border-e">
+            <div class="sticky top-16 pt-6">
+                
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-title" class="md:hidden mx-4 px-2 pt-4 pb-2 md:border-b text-tertiary-text md:text-primary-text">
+    <span class="font-semibold">Table of Contents</span>
+    <i class='fas fa-caret-right ms-1'></i>
+</div>
+
+<div id="sidebar-toc"
+    class="hidden md:block overflow-y-auto mx-6 md:mx-0 pe-6 pt-2 md:max-h-doc-sidebar bg-primary-bg md:bg-transparent">
+    <div class="flex flex-wrap ms-4 -me-2 p-2 bg-secondary-bg md:bg-primary-bg rounded">
+        <a class=" hover:text-eureka"
+            href="https://afinezyboy.github.io/coding/learnhugo/">Learn Hugo</a>
+        
+        
+        
+
+
+    </div>
+    
+<ul class="ps-6">
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/">Chapter 1 开始部署</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/">Chapter 2 尝个鲜</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" text-eureka  hover:text-eureka"
+                href="https://afinezyboy.github.io/coding/learnhugo/hugolearn/">Chapter 3 使用模板</a>
+        </div>
+        
+    </li>
+    
+    
+</ul>
+
+</div>
+
+
+
+
+
+            </div>
+
+        </div>
+        <div class="w-full md:w-3/4 lg:w-4/5 pb-8 pt-2 md:pt-8">
+            <div class="flex">
+                <div class="w-full lg:w-3/4 px-6">
+                    <article class="prose">
+  <h1 class="mb-4">Chapter 3 使用模板</h1>
+
+  <div
+  class="text-tertiary-text not-prose mt-2 flex flex-row flex-wrap items-center"
+>
+  <div class="me-6 my-2">
+    <i class="fas fa-calendar me-1"></i>
+    <span
+      >2020-10-16</span
+    >
+  </div>
+  <div class="me-6 my-2">
+    <i class="fas fa-clock me-1"></i>
+    <span>3 min read</span>
+  </div>
+
+  
+
+  
+</div>
+
+
+  
+  
+
+  <h2 id="使用模板">使用模板</h2>
+<p>现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（结构）：</p>
+<pre><code>layouts
+    ├─index.html
+    ├─_default
+        ├─list.html
+        ├─single.html
+</code></pre>
+<p>其中<code>index.html</code>是主页的模板，<code>list.html</code>是文章列表页的模板，而<code>single.html</code>是文章内容页的模板。理解了这些，就好理解后面的内容了。</p>
+<h3 id="创建自己的模板">创建自己的模板</h3>
+<p>我们通过这行命令构建自己的模板：</p>
+<pre><code>hugo new theme [theme-name]
+</code></pre>
+<p>比如我们通过<code>hugo new theme mytheme</code>创建了一个名为<code>mytheme</code>的主题，其包含以下文件（结构）：</p>
+<pre><code>mytheme
+    │  LICENSE
+    │  theme.toml
+    ├──archetypes
+    │      default.md
+    ├──layouts
+    │  │  404.html
+    │  │  index.html
+    │  ├──partials
+    │  │      footer.html
+    │  │      head.html
+    │  │      header.html
+    │  └──_default
+    │          baseof.html
+    │          list.html
+    │          single.html
+    └──static
+        ├─css
+        └─js
+</code></pre>
+<p>我们发现这个目录下也包括<code>archetypes</code>和<code>layouts</code>文件夹。另外还有一些之前没有接触过的文件和文件夹，他们的作用是：</p>
+<ul>
+<li><code>theme.toml</code>：模板的配置文件，存放一些配置参数；</li>
+<li><code>partials</code>：用来存放网页的<code>head</code>、页眉<code>header</code>、页脚<code>footer</code>等模板；</li>
+<li><code>static</code>：用来配置网页的样式<code>ccs</code>和动作<code>js</code>。</li>
+</ul>
+<p>我们可以把之前创建的<code>layouts</code>文件夹复制替换过来，在根目录下的<code>config.toml</code>加上一句：</p>
+<pre><code class="language-toml">theme = 'mytheme'
+</code></pre>
+<p>再次运行<code>hugo server -w</code>，又能够看到我们的网页了。</p>
+<p>未来，我们所做的一切都在模板里进行。</p>
+<h3 id="编辑内容页眉和页脚">编辑内容、页眉和页脚</h3>
+<p>在前面的例子中，我们依然需要动手编辑<code>index.html</code>和<code>_default/single.html</code>中的元素布局。Hugo为我们提供了一个更底层的模板<code>baseof.html</code>，打开它后我们发现已经写了一些内容：</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    {{- partial &quot;head.html&quot; . -}}
+    &lt;body&gt;
+        {{- partial &quot;header.html&quot; . -}}
+        &lt;div id=&quot;content&quot;&gt;
+        {{- block &quot;main&quot; . }}{{- end }}
+        &lt;/div&gt;
+        {{- partial &quot;footer.html&quot; . -}}
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>这里给我们提供了编辑<code>head</code>，<code>header</code>和<code>footer</code>的地方。他们的相应位置都在<code>partial</code>文件夹下。</p>
+<h4 id="head"><code>&lt;head&gt;</code></h4>
+<p><code>&lt;head&gt;</code>元素是所有头部元素的容器。元素必须包含文档的标题<code>&lt;title&gt;</code>,可以包含脚本<code>&lt;script&gt;</code>、样式<code>&lt;style&gt;</code>、<code>&lt;meta&gt;</code>信息以及其他更多的标签。我们在<code>head.html</code>内写入以下内容：</p>
+<pre><code class="language-html">&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewpoint&quot;, content=&quot;width=device-width, intial-scale=1&quot;&gt;
+    &lt;title&gt;{{.Site.Title}}&lt;/title&gt;
+&lt;/head&gt;
+</code></pre>
+<p>第一行<code>&lt;meta&gt;</code>声明了字符编码，第二行<code>meta</code>则允许浏览器按照自身宽度调整页面宽度，第三行<code>title</code>表示网站名。</p>
+<h4 id="header"><code>&lt;header&gt;</code></h4>
+<p><code>&lt;header&gt;</code>是html的页眉，我们在这里放入网站标题。另外，我们把导航标签<code>&lt;nav&gt;</code>也加入<code>header.html</code>文件中，其中<code>&lt;nav&gt;</code>标签是HTML5中的新标签。整个<code>header.html</code>文件内容如下：</p>
+<pre><code class="language-html">&lt;header&gt;
+    &lt;h1&gt;{{.Site.Title}}&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;nav&gt;
+    &lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;
+    &lt;a href=&quot;/hugolearn&quot;&gt;Learn Hugo&lt;/a&gt;
+    &lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt;
+&lt;/nav&gt;
+</code></pre>
+<h4 id="footer"><code>footer</code></h4>
+<p>最后，我们在页脚文件<code>footer.html</code>内写入以下信息：</p>
+<pre><code class="language-html">&lt;footer&gt;
+    &lt;small&gt;Copyright {{now.Format &quot;2022&quot;}} Me.&lt;/small&gt;
+&lt;/footer&gt;
+</code></pre>
+<h4 id="模板替换">模板替换</h4>
+<p><code>index.html</code>内：</p>
+<pre><code class="language-html">{{ define &quot;main&quot; }}
+
+    {{.Content}}
+
+{{ end }}   
+</code></pre>
+<p><code>_default/single.html</code>内：</p>
+<pre><code class="language-html">{{ define &quot;main&quot; }}
+
+    &lt;h2&gt;{{.Title}}&lt;/h2&gt;
+    {{.Content}}
+
+{{ end }}   
+</code></pre>
+<p><a href="https://www.runoob.com/html/html-tutorial.html">HTML 教程 | 菜鸟教程 (runoob.com)</a></p>
+<p><a href="https://github.com/gohugoio/hugo/releases">Releases · gohugoio/hugo · GitHub</a></p>
+<p><a href="https://www.gohugo.org/">Hugo中文文档 (gohugo.org)</a></p>
+<p><a href="https://gohugo.io/content-management/front-matter/">Front Matter</a></p>
+<p><a href="https://www.kancloud.cn/yunduanio/gohugo_learning/1439163">【入门】1:Hugo介绍 · Hugo 零基础建站教程 · 看云 (kancloud.cn)</a></p>
+
+</article>
+
+                    
+                    
+                    
+
+                    
+
+
+
+                    
+  <div
+    class="-mx-2 mt-4 flex flex-col border-t px-2 pt-4 md:flex-row md:justify-between"
+  >
+    <div>
+      
+        <span class="text-primary-text block font-bold"
+          >Previous</span
+        >
+        <a href="https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/" class="block">Chapter 2 尝个鲜</a>
+      
+    </div>
+    <div class="mt-4 md:mt-0 md:text-right">
+      
+    </div>
+  </div>
+
+
+                    
+
+
+
+                </div>
+                
+                <div class="hidden lg:block lg:w-1/4">
+                    
+                    <div
+  class="
+    bg-secondary-bg
+   prose sticky top-16 z-10 hidden px-6 py-4 lg:block"
+>
+  <h3>On This Page</h3>
+</div>
+<div
+  class="sticky-toc 
+    border-s
+   hidden px-6 pb-6 lg:block"
+>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#使用模板">使用模板</a>
+      <ul>
+        <li><a href="#创建自己的模板">创建自己的模板</a></li>
+        <li><a href="#编辑内容页眉和页脚">编辑内容、页眉和页脚</a>
+          <ul>
+            <li><a href="#head"><code>&lt;head&gt;</code></a></li>
+            <li><a href="#header"><code>&lt;header&gt;</code></a></li>
+            <li><a href="#footer"><code>footer</code></a></li>
+            <li><a href="#模板替换">模板替换</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    enableStickyToc();
+  });
+</script>
+
+                    
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        
+        hljs.initHighlightingOnLoad();
+        changeSidebarHeight();
+        switchDocToc();
+    })
+</script>
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      
+    </main>
+    <footer class="pl-scrollbar">
+      <div class="mx-auto w-full max-w-screen-xl"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2022 Yu Zhang
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  
+><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Chapter 1 开始部署 | Learn Hugo | 遥想</title>
+
+<meta name="generator" content="Hugo Eureka 0.9.0" />
+<link rel="stylesheet" href="https://afinezyboy.github.io/css/eureka.min.4e2853cb05c8b91a551eaa17c4915e2443a51bdf286abd7791ee337a316819f075844915cdb300d1b3e581432edd9199.css" integrity="sha384-TihTywXIuRpVHqoXxJFeJEOlG98oar13ke4zejFoGfB1hEkVzbMA0bPlgUMu3ZGZ">
+<script defer src="https://afinezyboy.github.io/js/eureka.min.f1639ee98d6cbd85b2b5f034d27320da962002ff83159ed4e01dbc5948c42a1ab26c2d6e74c66e93f5cec4d24dbd166d.js" integrity="sha384-8WOe6Y1svYWytfA00nMg2pYgAv&#43;DFZ7U4B28WUjEKhqybC1udMZuk/XOxNJNvRZt"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+
+<script defer type="text/javascript" src="https://afinezyboy.github.io/js/fontawesome.min.7a517ee79e430ca7b6d02ec6f4f2b39bcb6987e39d03cdf8b7dc274c0c00e2f141cddc618cf5a974dd4919d5b16af9a1.js" integrity="sha384-elF&#43;555DDKe20C7G9PKzm8tph&#43;OdA834t9wnTAwA4vFBzdxhjPWpdN1JGdWxavmh"></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://afinezyboy.github.io/images/web_icon_hu92dfcf79b68123166b65c6f1cd7ebdb8_4624_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://afinezyboy.github.io/images/web_icon_hu92dfcf79b68123166b65c6f1cd7ebdb8_4624_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="开始部署 安装 Hugo的使用方法很简单，从Github上直接下载release版本并安装就能使用，比基">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Docs",
+      "item":"https://afinezyboy.github.io/coding/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Learn Hugo",
+      "item":"https://afinezyboy.github.io/coding/learnhugo/"},{
+      "@type": "ListItem",
+      "position": 3 ,
+      "name":"Chapter 1 开始部署",
+      "item":"https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/"
+    },
+    "headline": "Chapter 1 开始部署 | Learn Hugo | 遥想","datePublished": "2020-10-16T00:00:00+00:00",
+    "dateModified": "2020-10-16T00:00:00+00:00",
+    "wordCount":  578 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Y. Zhang",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://afinezyboy.github.io/images/web_icon.png"
+        }
+        },
+    "description": "开始部署 安装 Hugo的使用方法很简单，从Github上直接下载release版本并安装就能使用，比基"
+}
+</script><meta property="og:title" content="Chapter 1 开始部署 | Learn Hugo | 遥想" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="https://afinezyboy.github.io/images/web_icon.png">
+
+
+<meta property="og:url" content="https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/" />
+
+
+
+
+<meta property="og:description" content="开始部署 安装 Hugo的使用方法很简单，从Github上直接下载release版本并安装就能使用，比基" />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="遥想" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2020-10-16T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2020-10-16T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="coding" />
+
+
+
+
+
+  <body class="flex min-h-screen flex-col">
+    <header
+      class="min-h-16 pl-scrollbar bg-secondary-bg fixed z-50 flex w-full items-center shadow-sm"
+    >
+      <div class="mx-auto w-full max-w-screen-xl"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if (((storageColorScheme == 'Auto' || storageColorScheme == null) && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="me-6 text-primary-text text-xl font-bold">遥想</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">主页</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">博客</a>
+            <a href="/coding/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">文档</a>
+            <a href="/memories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">彩蛋！</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-adjust"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == null || storageColorScheme == 'Auto') {
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Light") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'sun')
+        element.firstElementChild.classList.add('fa-sun')
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-adjust')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+    </header>
+    <main class="grow pt-16">
+        <div class="pl-scrollbar">
+          <div class="mx-auto w-full max-w-screen-xl lg:px-4 xl:px-8">
+
+
+<div class="lg:pt-12">
+    <div class="flex flex-col md:flex-row bg-secondary-bg rounded">
+        <div class="md:w-1/4 lg:w-1/5 border-e">
+            <div class="sticky top-16 pt-6">
+                
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-title" class="md:hidden mx-4 px-2 pt-4 pb-2 md:border-b text-tertiary-text md:text-primary-text">
+    <span class="font-semibold">Table of Contents</span>
+    <i class='fas fa-caret-right ms-1'></i>
+</div>
+
+<div id="sidebar-toc"
+    class="hidden md:block overflow-y-auto mx-6 md:mx-0 pe-6 pt-2 md:max-h-doc-sidebar bg-primary-bg md:bg-transparent">
+    <div class="flex flex-wrap ms-4 -me-2 p-2 bg-secondary-bg md:bg-primary-bg rounded">
+        <a class=" hover:text-eureka"
+            href="https://afinezyboy.github.io/coding/learnhugo/">Learn Hugo</a>
+        
+        
+        
+
+
+    </div>
+    
+<ul class="ps-6">
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" text-eureka  hover:text-eureka"
+                href="https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/">Chapter 1 开始部署</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/">Chapter 2 尝个鲜</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" hover:text-eureka"
+                href="https://afinezyboy.github.io/coding/learnhugo/hugolearn/">Chapter 3 使用模板</a>
+        </div>
+        
+    </li>
+    
+    
+</ul>
+
+</div>
+
+
+
+
+
+            </div>
+
+        </div>
+        <div class="w-full md:w-3/4 lg:w-4/5 pb-8 pt-2 md:pt-8">
+            <div class="flex">
+                <div class="w-full lg:w-3/4 px-6">
+                    <article class="prose">
+  <h1 class="mb-4">Chapter 1 开始部署</h1>
+
+  <div
+  class="text-tertiary-text not-prose mt-2 flex flex-row flex-wrap items-center"
+>
+  <div class="me-6 my-2">
+    <i class="fas fa-calendar me-1"></i>
+    <span
+      >2020-10-16</span
+    >
+  </div>
+  <div class="me-6 my-2">
+    <i class="fas fa-clock me-1"></i>
+    <span>2 min read</span>
+  </div>
+
+  
+
+  
+</div>
+
+
+  
+  
+
+  <h2 id="开始部署">开始部署</h2>
+<h3 id="安装">安装</h3>
+<p><a href="https://gohugo.io/">Hugo</a>的使用方法很简单，从Github上直接下载<a href="https://github.com/gohugoio/hugo/releases">release版本</a>并安装就能使用，比基于动态脚本的Jekyll和Hexo方便许多，而且执行速度更快。下载后解压，将Hugo所在的文件夹加入PATH环境变量中，打开cmd，输入</p>
+<pre><code>&gt;&gt; Hugo help
+hugo is the main command, used to build your Hugo site.
+
+Hugo is a Fast and Flexible Static Site Generator
+built with love by spf13 and friends in Go.
+...
+</code></pre>
+<p>就表示安装成功啦。</p>
+<h3 id="基本操作">基本操作</h3>
+<p>我比较喜欢把所有工程文件都放在<code>F:\Cloud\Projects\</code> 路径中。在里面新建一个名为<code>Hugo</code>的文件夹并进入：</p>
+<pre><code>&gt;&gt; F:
+&gt;&gt; cd F:\Cloud\Project
+&gt;&gt; mkdir Hugo
+&gt;&gt; cd .\Hugo
+</code></pre>
+<p>建立一个新的工程，随便什么名字都可以</p>
+<pre><code>&gt;&gt; Hugo new site mysite
+</code></pre>
+<p>这样，Hugo生成了一个名为<code>mysite</code>的新文件夹，它包含以下文件夹：</p>
+<pre><code>&gt;&gt; tree
+mysite
+    ├─archetypes
+    ├─content
+    ├─data
+    ├─layouts
+    ├─static
+    └─themes
+</code></pre>
+<p>尽管<code>mysite</code>文件夹现在是空的，但已经包含了Hugo生成网站的必要结构。使用<code>hugo</code>命令就可以生成静态网站：</p>
+<pre><code>&gt;&gt; cd .\mysite
+&gt;&gt; hugo
+Start building sites …
+hugo v0.88.1-5BC54738 windows/amd64 BuildDate=2021-09-04T09:39:19Z VendorInfo=gohugoio
+
+                   | EN
+-------------------+-----
+  Pages            |  3
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  0
+  Processed images |  0
+  Aliases          |  0
+  Sitemaps         |  1
+  Cleaned          |  0
+
+Total in 54 ms
+</code></pre>
+<p>可以通过<code>hugo server</code>命令在本地观看生成的网站，加上<code>-w(--watch)</code>参数可以在修改文件的同时将变化动态更新至网站上：</p>
+<pre><code>&gt;&gt; hugo server -w
+......
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+......
+</code></pre>
+<p>根据输出信息，在浏览器打开网址<code>http://localhost:1313/</code>即可观看网页生成的结果。</p>
+
+</article>
+
+                    
+                    
+                    
+
+                    
+
+
+
+                    
+  <div
+    class="-mx-2 mt-4 flex flex-col border-t px-2 pt-4 md:flex-row md:justify-between"
+  >
+    <div>
+      
+    </div>
+    <div class="mt-4 md:mt-0 md:text-right">
+      
+        <span class="text-primary-text block font-bold">Next</span>
+        <a href="https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/" class="block">Chapter 2 尝个鲜</a>
+      
+    </div>
+  </div>
+
+
+                    
+
+
+
+                </div>
+                
+                <div class="hidden lg:block lg:w-1/4">
+                    
+                    <div
+  class="
+    bg-secondary-bg
+   prose sticky top-16 z-10 hidden px-6 py-4 lg:block"
+>
+  <h3>On This Page</h3>
+</div>
+<div
+  class="sticky-toc 
+    border-s
+   hidden px-6 pb-6 lg:block"
+>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#开始部署">开始部署</a>
+      <ul>
+        <li><a href="#安装">安装</a></li>
+        <li><a href="#基本操作">基本操作</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    enableStickyToc();
+  });
+</script>
+
+                    
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        
+        hljs.initHighlightingOnLoad();
+        changeSidebarHeight();
+        switchDocToc();
+    })
+</script>
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      
+    </main>
+    <footer class="pl-scrollbar">
+      <div class="mx-auto w-full max-w-screen-xl"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2022 Yu Zhang
+ &middot;  Powered by the <a href="https://github.com/wangchucheng/hugo-eureka" class="hover:text-eureka">Eureka</a> theme for <a href="https://gohugo.io" class="hover:text-eureka">Hugo</a></p>
+</div></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>遥想</title>
+    <link>https://afinezyboy.github.io/</link>
+    <description>Recent content on 遥想</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 Yu Zhang
+</copyright>
+    <lastBuildDate>Fri, 18 Mar 2022 23:27:52 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>每一天都值得被纪念</title>
+      <link>https://afinezyboy.github.io/memories/it-worth-remember/</link>
+      <pubDate>Fri, 18 Mar 2022 23:27:52 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/memories/it-worth-remember/</guid>
+      <description>昨晚又梦到你 虽然看记不清楚面庞 但我确信那就是你 就算我闭上眼睛 只需听到你将要说话的气息 或嗅到属于你的专</description>
+    </item>
+    
+    <item>
+      <title>生活就要一次次地推翻重来</title>
+      <link>https://afinezyboy.github.io/posts/newlifestyle/</link>
+      <pubDate>Sat, 12 Mar 2022 22:07:54 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/newlifestyle/</guid>
+      <description>我认为必要对自己的生活进行重新定义了。每天日复一日的荒废生活使我厌倦。或许我这个人在生活上太过于随性</description>
+    </item>
+    
+    <item>
+      <title>“去观测日全食吧！”</title>
+      <link>https://afinezyboy.github.io/posts/einstein/</link>
+      <pubDate>Wed, 01 Dec 2021 23:31:32 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/einstein/</guid>
+      <description>那个改变了世界的人 改变了世界的人有很多，今天我想介绍爱因斯坦。 他并不是一个神话。相反，他8岁才会说话</description>
+    </item>
+    
+    <item>
+      <title>我为什么做博客</title>
+      <link>https://afinezyboy.github.io/posts/do-it-or-never/</link>
+      <pubDate>Tue, 02 Nov 2021 23:31:32 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/do-it-or-never/</guid>
+      <description>Do it, or Never! 我是一个爱思考和做计划的人。当对一件事情感兴趣时，会想要先做好充分的准备——包括知识准备和思</description>
+    </item>
+    
+    <item>
+      <title>Hello, Hugo!</title>
+      <link>https://afinezyboy.github.io/posts/welcome/</link>
+      <pubDate>Mon, 01 Nov 2021 23:31:32 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/welcome/</guid>
+      <description>Hello This is my first webpage built by Hugo. This the the second line in the first page. See You</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1 开始部署</title>
+      <link>https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/</guid>
+      <description>开始部署 安装 Hugo的使用方法很简单，从Github上直接下载release版本并安装就能使用，比基</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1 战前动员</title>
+      <link>https://afinezyboy.github.io/coding/learnpython/chapter-1-why-python/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/coding/learnpython/chapter-1-why-python/</guid>
+      <description>战前动员 在高中的时候，我的好朋友东杰送我了一本清华大学谭浩强的《C程序设计》，也正是在那一刻，我开启</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2 安装Python</title>
+      <link>https://afinezyboy.github.io/coding/learnpython/chapter-2-installation/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/coding/learnpython/chapter-2-installation/</guid>
+      <description>安装Python 安装Python非常非常简单，并且免费。访问这个网站：https://www.pyt</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2 尝个鲜</title>
+      <link>https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/</guid>
+      <description>尝个鲜 搭建Home主页 搭建Home主页至少需要两个文件，一个文件为.\layouts\index.h</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3 使用模板</title>
+      <link>https://afinezyboy.github.io/coding/learnhugo/hugolearn/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/coding/learnhugo/hugolearn/</guid>
+      <description>使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3 配置开发环境</title>
+      <link>https://afinezyboy.github.io/coding/learnpython/chapter-3-configure-ide/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/coding/learnpython/chapter-3-configure-ide/</guid>
+      <description>配置开发环境 刚才提到，安装完python后可以通过命令提示行cmd进入到python的运行环境中，但</description>
+    </item>
+    
+  </channel>
+</rss>

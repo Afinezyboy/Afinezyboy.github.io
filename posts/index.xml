@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 遥想</title>
+    <link>https://afinezyboy.github.io/posts/</link>
+    <description>Recent content in Posts on 遥想</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 Yu Zhang
+</copyright>
+    <lastBuildDate>Sat, 12 Mar 2022 22:07:54 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生活就要一次次地推翻重来</title>
+      <link>https://afinezyboy.github.io/posts/newlifestyle/</link>
+      <pubDate>Sat, 12 Mar 2022 22:07:54 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/newlifestyle/</guid>
+      <description>我认为必要对自己的生活进行重新定义了。每天日复一日的荒废生活使我厌倦。或许我这个人在生活上太过于随性</description>
+    </item>
+    
+    <item>
+      <title>“去观测日全食吧！”</title>
+      <link>https://afinezyboy.github.io/posts/einstein/</link>
+      <pubDate>Wed, 01 Dec 2021 23:31:32 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/einstein/</guid>
+      <description>那个改变了世界的人 改变了世界的人有很多，今天我想介绍爱因斯坦。 他并不是一个神话。相反，他8岁才会说话</description>
+    </item>
+    
+    <item>
+      <title>我为什么做博客</title>
+      <link>https://afinezyboy.github.io/posts/do-it-or-never/</link>
+      <pubDate>Tue, 02 Nov 2021 23:31:32 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/do-it-or-never/</guid>
+      <description>Do it, or Never! 我是一个爱思考和做计划的人。当对一件事情感兴趣时，会想要先做好充分的准备——包括知识准备和思</description>
+    </item>
+    
+    <item>
+      <title>Hello, Hugo!</title>
+      <link>https://afinezyboy.github.io/posts/welcome/</link>
+      <pubDate>Mon, 01 Nov 2021 23:31:32 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/welcome/</guid>
+      <description>Hello This is my first webpage built by Hugo. This the the second line in the first page. See You</description>
+    </item>
+    
+  </channel>
+</rss>
