@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learn Hugo on 遥想</title>
+    <link>https://afinezyboy.github.io/docs/learnhugo/</link>
+    <description>Recent content in Learn Hugo on 遥想</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 Yu Zhang
+</copyright>
+    <lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://afinezyboy.github.io/docs/learnhugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 1 开始部署</title>
+      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-1-basic/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-1-basic/</guid>
+      <description>开始部署 安装 Hugo的使用方法很简单，从Github上直接下载release版本并安装就能使用，比基</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2 尝个鲜</title>
+      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-2-first-try/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-2-first-try/</guid>
+      <description>尝个鲜 搭建Home主页 搭建Home主页至少需要两个文件，一个文件为.\layouts\index.h</description>
+    </item>
+    
+    <item>
+      <title>Chapter 3 使用模板</title>
+      <link>https://afinezyboy.github.io/docs/learnhugo/hugolearn/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/docs/learnhugo/hugolearn/</guid>
+      <description>使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（</description>
+    </item>
+    
+  </channel>
+</rss>

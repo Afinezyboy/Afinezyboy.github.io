@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on 遥想</title>
+    <link>https://afinezyboy.github.io/docs/</link>
+    <description>Recent content in Docs on 遥想</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2022 Yu Zhang
+</copyright>
+    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://afinezyboy.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT</title>
+      <link>https://afinezyboy.github.io/docs/chatgpt/</link>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/docs/chatgpt/</guid>
+      <description>什么是ChatGPT 以下内容直接使用ChatGPT生成 ChatGPT是一个基于自然语言处理技术的聊天</description>
+    </item>
+    
+  </channel>
+</rss>

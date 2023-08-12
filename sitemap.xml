@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://afinezyboy.github.io/docs/chatgpt/</loc>
+    <lastmod>2023-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/docs/</loc>
+    <lastmod>2023-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/</loc>
+    <lastmod>2023-03-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://afinezyboy.github.io/memories/forever-young/</loc>
     <lastmod>2022-06-12T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/memories/</loc>
-    <lastmod>2022-06-12T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/</loc>
     <lastmod>2022-06-12T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/posts/</loc>
@@ -23,23 +29,20 @@
     <loc>https://afinezyboy.github.io/posts/marta-words/</loc>
     <lastmod>2022-03-30T12:15:12+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/reading/</loc>
-    <lastmod>2022-03-24T23:32:00+08:00</lastmod>
+    <loc>https://afinezyboy.github.io/tags/</loc>
+    <lastmod>2022-03-20T08:41:14+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/reading/reprint-masturbation/</loc>
-    <lastmod>2022-03-24T23:32:00+08:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/life/</loc>
-    <lastmod>2022-03-22T22:27:52+08:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/life/expreiment/</loc>
-    <lastmod>2022-03-22T22:27:52+08:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/posts/transfrom-subconsciousness/</loc>
-    <lastmod>2022-03-20T17:14:45+08:00</lastmod>
+    <loc>https://afinezyboy.github.io/tags/unfinished/</loc>
+    <lastmod>2022-03-20T08:41:14+08:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/reading/stanford-sleep/</loc>
     <lastmod>2022-03-20T08:41:14+08:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/reading/</loc>
+    <lastmod>2022-03-20T08:41:14+08:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/life/</loc>
+    <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/life/academic-plan/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
@@ -56,13 +59,10 @@
     <loc>https://afinezyboy.github.io/posts/newlifestyle/</loc>
     <lastmod>2022-03-12T22:07:54+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/coding/</loc>
+    <loc>https://afinezyboy.github.io/docs/learnpython/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/coding/learnpython/</loc>
-    <lastmod>2022-03-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/coding/learnhugo/</loc>
+    <loc>https://afinezyboy.github.io/docs/learnhugo/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/posts/einstein/</loc>
@@ -74,22 +74,22 @@
     <loc>https://afinezyboy.github.io/posts/welcome/</loc>
     <lastmod>2021-11-01T23:31:32+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/</loc>
+    <loc>https://afinezyboy.github.io/docs/learnhugo/chapter-1-basic/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/coding/learnpython/chapter-1-why-python/</loc>
+    <loc>https://afinezyboy.github.io/docs/learnpython/chapter-1-why-python/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/coding/learnpython/chapter-2-installation/</loc>
+    <loc>https://afinezyboy.github.io/docs/learnpython/chapter-2-installation/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/</loc>
+    <loc>https://afinezyboy.github.io/docs/learnhugo/chapter-2-first-try/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/coding/learnhugo/hugolearn/</loc>
+    <loc>https://afinezyboy.github.io/docs/learnhugo/hugolearn/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/coding/learnpython/chapter-3-configure-ide/</loc>
+    <loc>https://afinezyboy.github.io/docs/learnpython/chapter-3-configure-ide/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/authors/</loc>
@@ -99,7 +99,5 @@
     <loc>https://afinezyboy.github.io/authors/example-author/</loc>
   </url><url>
     <loc>https://afinezyboy.github.io/series/</loc>
-  </url><url>
-    <loc>https://afinezyboy.github.io/tags/</loc>
   </url>
 </urlset>
