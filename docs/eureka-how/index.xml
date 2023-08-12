@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Example Author on 遥想</title>
-    <link>https://afinezyboy.github.io/authors/example-author/</link>
-    <description>Recent content in Example Author on 遥想</description>
+    <title>Eureka-how on 遥想</title>
+    <link>https://afinezyboy.github.io/docs/eureka-how/</link>
+    <description>Recent content in Eureka-how on 遥想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 Yu Zhang
 </copyright>
-    <lastBuildDate>Wed, 31 Mar 2021 13:11:22 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/authors/example-author/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://afinezyboy.github.io/docs/eureka-how/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diagram Support</title>
       <link>https://afinezyboy.github.io/docs/eureka-how/diagram-support/</link>
@@ -28,15 +28,6 @@
     </item>
     
     <item>
-      <title>Chapter 1 开始部署</title>
-      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-1-basic/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-1-basic/</guid>
-      <description>开始部署 安装 Hugo的使用方法很简单，从Github上直接下载release版本并安装就能使用，比基</description>
-    </item>
-    
-    <item>
       <title>Featured Image</title>
       <link>https://afinezyboy.github.io/docs/eureka-how/featured-image/</link>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
@@ -46,12 +37,30 @@
     </item>
     
     <item>
+      <title>Markdown Syntax Guide</title>
+      <link>https://afinezyboy.github.io/docs/eureka-how/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/docs/eureka-how/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Placeholder Text</title>
       <link>https://afinezyboy.github.io/docs/eureka-how/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://afinezyboy.github.io/docs/eureka-how/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://afinezyboy.github.io/docs/eureka-how/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/docs/eureka-how/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
   </channel>
