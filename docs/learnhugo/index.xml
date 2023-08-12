@@ -29,10 +29,10 @@
     
     <item>
       <title>Chapter 3 使用模板</title>
-      <link>https://afinezyboy.github.io/docs/learnhugo/hugolearn/</link>
+      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-3-use-template/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://afinezyboy.github.io/docs/learnhugo/hugolearn/</guid>
+      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-3-use-template/</guid>
       <description>使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（</description>
     </item>
     

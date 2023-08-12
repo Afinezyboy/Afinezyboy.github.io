@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Chapter 2 尝个鲜 | Learn Hugo | 遥想</title>
+<title>Chapter 3 使用模板 | Learn Hugo | 遥想</title>
 
 <meta name="generator" content="Hugo Eureka 0.9.3" />
 <link rel="stylesheet" href="https://afinezyboy.github.io/css/eureka.min.9cec6350e37e534b0338fa9a085bf06855de3b0f2dcf857e792e5e97b07ea905d4d5513db554cbc26a9c3da622bae92d.css">
@@ -75,7 +75,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="https://afinezyboy.github.io/images/web_icon_hu92dfcf79b68123166b65c6f1cd7ebdb8_4624_180x180_fill_box_center_3.png">
 
 <meta name="description"
-  content="尝个鲜 搭建Home主页 搭建Home主页至少需要两个文件，一个文件为.\layouts\index.h">
+  content="使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -84,15 +84,15 @@
       "@type": "ListItem",
       "position": 1 ,
       "name":"Docs",
-      "item":"https://afinezyboy.github.io/coding/"},{
+      "item":"https://afinezyboy.github.io/docs/"},{
       "@type": "ListItem",
       "position": 2 ,
       "name":"Learn Hugo",
-      "item":"https://afinezyboy.github.io/coding/learnhugo/"},{
+      "item":"https://afinezyboy.github.io/docs/learnhugo/"},{
       "@type": "ListItem",
       "position": 3 ,
-      "name":"Chapter 2 尝个鲜",
-      "item":"https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/"}]
+      "name":"Chapter 3 使用模板",
+      "item":"https://afinezyboy.github.io/docs/learnhugo/chapter-3-use-template/"}]
 }
 </script>
 
@@ -104,11 +104,11 @@
     "@type": "Article",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/"
+        "@id": "https://afinezyboy.github.io/docs/learnhugo/chapter-3-use-template/"
     },
-    "headline": "Chapter 2 尝个鲜 | Learn Hugo | 遥想","datePublished": "2020-10-16T00:00:00+00:00",
+    "headline": "Chapter 3 使用模板 | Learn Hugo | 遥想","datePublished": "2020-10-16T00:00:00+00:00",
     "dateModified": "2020-10-16T00:00:00+00:00",
-    "wordCount":  776 ,
+    "wordCount":  1274 ,
     "publisher": {
         "@type": "Person",
         "name": "Y. Zhang",
@@ -117,21 +117,21 @@
             "url": "https://afinezyboy.github.io/images/web_icon.png"
         }
         },
-    "description": "尝个鲜 搭建Home主页 搭建Home主页至少需要两个文件，一个文件为.\\layouts\\index.h"
+    "description": "使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（"
 }
-</script><meta property="og:title" content="Chapter 2 尝个鲜 | Learn Hugo | 遥想" />
+</script><meta property="og:title" content="Chapter 3 使用模板 | Learn Hugo | 遥想" />
 <meta property="og:type" content="article" />
 
 
 <meta property="og:image" content="https://afinezyboy.github.io/images/web_icon.png">
 
 
-<meta property="og:url" content="https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/" />
+<meta property="og:url" content="https://afinezyboy.github.io/docs/learnhugo/chapter-3-use-template/" />
 
 
 
 
-<meta property="og:description" content="尝个鲜 搭建Home主页 搭建Home主页至少需要两个文件，一个文件为.\layouts\index.h" />
+<meta property="og:description" content="使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（" />
 
 
 
@@ -155,7 +155,7 @@
 
 
 
-<meta property="article:section" content="coding" />
+<meta property="article:section" content="docs" />
 
 
 
@@ -184,7 +184,7 @@
             <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">博客</a>
             <a href="/life/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">生活</a>
             <a href="/reading/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">读书</a>
-            <a href="/coding/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">文档</a>
+            <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">文档</a>
             <a href="/memories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">彩蛋！</a>
         </div>
 
@@ -262,7 +262,7 @@
     class="hidden md:block overflow-y-auto mx-6 md:mx-0 pe-6 pt-2 md:max-h-doc-sidebar bg-primary-bg md:bg-transparent">
     <div class="flex flex-wrap ms-4 -me-2 p-2 bg-secondary-bg md:bg-primary-bg rounded">
         <a class=" hover:text-eureka"
-            href="https://afinezyboy.github.io/coding/learnhugo/">Learn Hugo</a>
+            href="https://afinezyboy.github.io/docs/learnhugo/">Learn Hugo</a>
         
         
         
@@ -277,18 +277,7 @@
     <li class="py-2">
         <div class="">
             <a class=" hover:text-eureka"
-                href="https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/">Chapter 1 开始部署</a>
-        </div>
-        
-    </li>
-    
-    
-    
-    
-    <li class="py-2">
-        <div class="">
-            <a class=" text-eureka  hover:text-eureka"
-                href="https://afinezyboy.github.io/coding/learnhugo/chapter-2-first-try/">Chapter 2 尝个鲜</a>
+                href="https://afinezyboy.github.io/docs/learnhugo/chapter-1-basic/">Chapter 1 开始部署</a>
         </div>
         
     </li>
@@ -299,7 +288,18 @@
     <li class="py-2">
         <div class="">
             <a class=" hover:text-eureka"
-                href="https://afinezyboy.github.io/coding/learnhugo/hugolearn/">Chapter 3 使用模板</a>
+                href="https://afinezyboy.github.io/docs/learnhugo/chapter-2-first-try/">Chapter 2 尝个鲜</a>
+        </div>
+        
+    </li>
+    
+    
+    
+    
+    <li class="py-2">
+        <div class="">
+            <a class=" text-eureka  hover:text-eureka"
+                href="https://afinezyboy.github.io/docs/learnhugo/chapter-3-use-template/">Chapter 3 使用模板</a>
         </div>
         
     </li>
@@ -320,7 +320,7 @@
             <div class="flex">
                 <div class="w-full lg:w-3/4 px-6">
                     <article class="prose">
-  <h1 class="mb-4">Chapter 2 尝个鲜</h1>
+  <h1 class="mb-4">Chapter 3 使用模板</h1>
 
   <div
   class="text-tertiary-text not-prose mt-2 flex flex-row flex-wrap items-center"
@@ -333,7 +333,7 @@
   </div>
   <div class="me-6 my-2">
     <i class="fas fa-clock me-1"></i>
-    <span>2 min read</span>
+    <span>3 min read</span>
   </div>
 
   
@@ -345,46 +345,114 @@
   
   
 
-  <h2 id="尝个鲜">尝个鲜</h2>
-<h3 id="搭建home主页">搭建Home主页</h3>
-<p>搭建Home主页至少需要两个文件，一个文件为<code>.\layouts\index.html</code>，负责主页的布局，实际上就是主页内容的模板；另一个文件为<code>.\content\_index.md</code>，作为主页的主内容。</p>
-<p>下面的代码展示<code>.\layouts\index.html</code>内的基本代码，是一个最基本的主页配置。</p>
+  <h2 id="使用模板">使用模板</h2>
+<p>现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（结构）：</p>
+<pre><code>layouts
+    ├─index.html
+    ├─_default
+        ├─list.html
+        ├─single.html
+</code></pre>
+<p>其中<code>index.html</code>是主页的模板，<code>list.html</code>是文章列表页的模板，而<code>single.html</code>是文章内容页的模板。理解了这些，就好理解后面的内容了。</p>
+<h3 id="创建自己的模板">创建自己的模板</h3>
+<p>我们通过这行命令构建自己的模板：</p>
+<pre><code>hugo new theme [theme-name]
+</code></pre>
+<p>比如我们通过<code>hugo new theme mytheme</code>创建了一个名为<code>mytheme</code>的主题，其包含以下文件（结构）：</p>
+<pre><code>mytheme
+    │  LICENSE
+    │  theme.toml
+    ├──archetypes
+    │      default.md
+    ├──layouts
+    │  │  404.html
+    │  │  index.html
+    │  ├──partials
+    │  │      footer.html
+    │  │      head.html
+    │  │      header.html
+    │  └──_default
+    │          baseof.html
+    │          list.html
+    │          single.html
+    └──static
+        ├─css
+        └─js
+</code></pre>
+<p>我们发现这个目录下也包括<code>archetypes</code>和<code>layouts</code>文件夹。另外还有一些之前没有接触过的文件和文件夹，他们的作用是：</p>
+<ul>
+<li><code>theme.toml</code>：模板的配置文件，存放一些配置参数；</li>
+<li><code>partials</code>：用来存放网页的<code>head</code>、页眉<code>header</code>、页脚<code>footer</code>等模板；</li>
+<li><code>static</code>：用来配置网页的样式<code>ccs</code>和动作<code>js</code>。</li>
+</ul>
+<p>我们可以把之前创建的<code>layouts</code>文件夹复制替换过来，在根目录下的<code>config.toml</code>加上一句：</p>
+<pre><code class="language-toml">theme = 'mytheme'
+</code></pre>
+<p>再次运行<code>hugo server -w</code>，又能够看到我们的网页了。</p>
+<p>未来，我们所做的一切都在模板里进行。</p>
+<h3 id="编辑内容页眉和页脚">编辑内容、页眉和页脚</h3>
+<p>在前面的例子中，我们依然需要动手编辑<code>index.html</code>和<code>_default/single.html</code>中的元素布局。Hugo为我们提供了一个更底层的模板<code>baseof.html</code>，打开它后我们发现已经写了一些内容：</p>
 <pre><code class="language-html">&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en-US&quot;&gt;
-    &lt;head&gt;
-        &lt;meta charset=&quot;UTF-8&quot;&gt;
-        &lt;title&gt;{{.Site.Title}}&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;  
-        &lt;h1&gt;{{.Site.Title}}&lt;/h1&gt; 
-        {{.Content}}
+&lt;html&gt;
+    {{- partial &quot;head.html&quot; . -}}
+    &lt;body&gt;
+        {{- partial &quot;header.html&quot; . -}}
+        &lt;div id=&quot;content&quot;&gt;
+        {{- block &quot;main&quot; . }}{{- end }}
+        &lt;/div&gt;
+        {{- partial &quot;footer.html&quot; . -}}
     &lt;/body&gt;
 &lt;/html&gt;
 </code></pre>
-<p>下面解释这里的一些关键部分，即双括号<code>{{...}}</code>内的东西代表着什么。</p>
-<ul>
-<li><code>.Site.Title</code>表示从<code>congif.toml</code>内定义的<code>Title</code>属性。</li>
-<li><code>.Content</code>表示从<code>.\Content\</code>目录下读取的主页文件，Hugo会读取这个目录下的<code>_index.md</code>文件</li>
-</ul>
-<h3 id="搭建content内容页">搭建Content内容页</h3>
-<p>与主页相同，搭建Contern内容页也需要两个文件：<code>.\layout\_default\single.html</code>，作为网页的模板。一个较为简单的模板如下（只给出<code>&lt;body&gt;...&lt;/body&gt;</code>部分）：</p>
-<pre><code class="language-html">&lt;body&gt;  
-    &lt;h1&gt;{{.Site.Title}}&lt;/h1&gt; 
-    &lt;h2&gt;{{.Title}}&lt;/h2&gt; 
+<p>这里给我们提供了编辑<code>head</code>，<code>header</code>和<code>footer</code>的地方。他们的相应位置都在<code>partial</code>文件夹下。</p>
+<h4 id="head"><code>&lt;head&gt;</code></h4>
+<p><code>&lt;head&gt;</code>元素是所有头部元素的容器。元素必须包含文档的标题<code>&lt;title&gt;</code>,可以包含脚本<code>&lt;script&gt;</code>、样式<code>&lt;style&gt;</code>、<code>&lt;meta&gt;</code>信息以及其他更多的标签。我们在<code>head.html</code>内写入以下内容：</p>
+<pre><code class="language-html">&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewpoint&quot;, content=&quot;width=device-width, intial-scale=1&quot;&gt;
+    &lt;title&gt;{{.Site.Title}}&lt;/title&gt;
+&lt;/head&gt;
+</code></pre>
+<p>第一行<code>&lt;meta&gt;</code>声明了字符编码，第二行<code>meta</code>则允许浏览器按照自身宽度调整页面宽度，第三行<code>title</code>表示网站名。</p>
+<h4 id="header"><code>&lt;header&gt;</code></h4>
+<p><code>&lt;header&gt;</code>是html的页眉，我们在这里放入网站标题。另外，我们把导航标签<code>&lt;nav&gt;</code>也加入<code>header.html</code>文件中，其中<code>&lt;nav&gt;</code>标签是HTML5中的新标签。整个<code>header.html</code>文件内容如下：</p>
+<pre><code class="language-html">&lt;header&gt;
+    &lt;h1&gt;{{.Site.Title}}&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;nav&gt;
+    &lt;a href=&quot;/&quot;&gt;Home&lt;/a&gt;
+    &lt;a href=&quot;/hugolearn&quot;&gt;Learn Hugo&lt;/a&gt;
+    &lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt;
+&lt;/nav&gt;
+</code></pre>
+<h4 id="footer"><code>footer</code></h4>
+<p>最后，我们在页脚文件<code>footer.html</code>内写入以下信息：</p>
+<pre><code class="language-html">&lt;footer&gt;
+    &lt;small&gt;Copyright {{now.Format &quot;2022&quot;}} Me.&lt;/small&gt;
+&lt;/footer&gt;
+</code></pre>
+<h4 id="模板替换">模板替换</h4>
+<p><code>index.html</code>内：</p>
+<pre><code class="language-html">{{ define &quot;main&quot; }}
+
     {{.Content}}
-&lt;/body&gt;
+
+{{ end }}   
 </code></pre>
-<p>另一个文件是包含内容的Markdown文件，存放在<code>.\content\</code>中。作为内容，需要包含一些额外的信息，放在Markdown文件的最上方，称为front matter，通常由toml或yaml标记语言写成，或者也可以使用json。但我们不必自己写这段front matter，而是可以基于模板生成。模板文件位于<code>.\archetypes\default.md</code>，只需要通过命令:</p>
-<pre><code class="language-cmd">&gt; hugo new about.md
+<p><code>_default/single.html</code>内：</p>
+<pre><code class="language-html">{{ define &quot;main&quot; }}
+
+    &lt;h2&gt;{{.Title}}&lt;/h2&gt;
+    {{.Content}}
+
+{{ end }}   
 </code></pre>
-<p>就可以从模板文件直接生成一个包含默认front matter的<code>about.md</code>文件。打开后发现已经有一些内容，这就是hugo识别文件所需要的front matter，是用ymal写成的：</p>
-<pre><code>---
-title: &quot;about&quot;
-date: 2022-03-12T22:07:54+08:00
-draft: true
----
-</code></pre>
-<p>在front matter后面尽情开始创作吧！写完之后，将<code>draft</code>的状态更改为<code>false</code>，就能够在下一次的发布中见到它！</p>
+<p><a href="https://www.runoob.com/html/html-tutorial.html">HTML 教程 | 菜鸟教程 (runoob.com)</a></p>
+<p><a href="https://github.com/gohugoio/hugo/releases">Releases · gohugoio/hugo · GitHub</a></p>
+<p><a href="https://www.gohugo.org/">Hugo中文文档 (gohugo.org)</a></p>
+<p><a href="https://gohugo.io/content-management/front-matter/">Front Matter</a></p>
+<p><a href="https://www.kancloud.cn/yunduanio/gohugo_learning/1439163">【入门】1:Hugo介绍 · Hugo 零基础建站教程 · 看云 (kancloud.cn)</a></p>
 
 </article>
 
@@ -405,13 +473,10 @@ draft: true
         <span class="text-primary-text block font-bold"
           >Previous</span
         >
-        <a href="https://afinezyboy.github.io/coding/learnhugo/chapter-1-basic/" class="block">Chapter 1 开始部署</a>
+        <a href="https://afinezyboy.github.io/docs/learnhugo/chapter-2-first-try/" class="block">Chapter 2 尝个鲜</a>
       
     </div>
     <div class="mt-4 md:mt-0 md:text-right">
-      
-        <span class="text-primary-text block font-bold">Next</span>
-        <a href="https://afinezyboy.github.io/coding/learnhugo/hugolearn/" class="block">Chapter 3 使用模板</a>
       
     </div>
   </div>
@@ -439,10 +504,17 @@ draft: true
 >
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#尝个鲜">尝个鲜</a>
+    <li><a href="#使用模板">使用模板</a>
       <ul>
-        <li><a href="#搭建home主页">搭建Home主页</a></li>
-        <li><a href="#搭建content内容页">搭建Content内容页</a></li>
+        <li><a href="#创建自己的模板">创建自己的模板</a></li>
+        <li><a href="#编辑内容页眉和页脚">编辑内容、页眉和页脚</a>
+          <ul>
+            <li><a href="#head"><code>&lt;head&gt;</code></a></li>
+            <li><a href="#header"><code>&lt;header&gt;</code></a></li>
+            <li><a href="#footer"><code>footer</code></a></li>
+            <li><a href="#模板替换">模板替换</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
