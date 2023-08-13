@@ -10,15 +10,6 @@
 </copyright>
     <lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://afinezyboy.github.io/docs/learnhugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 4 功能Wiki</title>
-      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-modules/</link>
-      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-modules/</guid>
-      <description>嵌入网易云音乐 &amp;lt;iframe frameborder=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; marginwidth=&amp;quot;0&amp;quot; marginheight=&amp;quot;0&amp;quot; width=330 height=86 src=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=416385506&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;</description>
-    </item>
-    
-    <item>
       <title>Chapter 1 开始部署</title>
       <link>https://afinezyboy.github.io/docs/learnhugo/chapter-1-basic/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
@@ -43,6 +34,15 @@
       
       <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-3-use-template/</guid>
       <description>使用模板 现在我们开始介绍如何通过使用模板，让网页搭建更加容易。一个最小化的Hugo模板包含以下文件（</description>
+    </item>
+    
+    <item>
+      <title>Chapter 4 功能Wiki</title>
+      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-modules/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-modules/</guid>
+      <description>嵌入网易云音乐 &amp;lt;iframe frameborder=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; marginwidth=&amp;quot;0&amp;quot; marginheight=&amp;quot;0&amp;quot; width=330 height=86 src=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=416385506&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;</description>
     </item>
     
   </channel>
