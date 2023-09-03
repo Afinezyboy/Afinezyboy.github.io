@@ -83,7 +83,7 @@
   "itemListElement": [{
       "@type": "ListItem",
       "position": 1 ,
-      "name":"Docs",
+      "name":"文档",
       "item":"https://afinezyboy.github.io/docs/"},{
       "@type": "ListItem",
       "position": 2 ,
@@ -179,10 +179,12 @@
         class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
             <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">主页</a>
-            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">随想</a>
-            <a href="/reading/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">读书</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">随笔</a>
+            <a href="/shares/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">分享</a>
+            <a href="/ee-posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">知识</a>
+            <a href="/techs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">技术</a>
             <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">文档</a>
-            <a href="/memories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">彩蛋！</a>
+            <a href="/memories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">彩蛋</a>
         </div>
 
         <div class="flex">
@@ -373,7 +375,12 @@
 <p>首先在一个非C盘的盘符下建立一个文件夹，命名为<code>Projects</code>，我会将所有编程、科研类软件的<strong>用户文件</strong>放在这个目录下。由于我使用的语言较多，一般还会在该文件夹下创建几个子目录，分别用来管理不同语言下的项目，比如我的<code>Projects</code>目录下就有<code>Markdown</code>、<code>Python</code>、<code>Matlab</code>、<code>Hugo</code>等十多个子文件夹。关于<code>python</code>相关的文件，自然就放在<code>Python</code>文件夹下。在我的电脑中，该文件夹的完整路径为<code>F:\Cloud\Projects\Python</code>，其中根目录<code>F:\Cloud\</code>是我的Onedrive同步文件夹，保存了我在电脑中用到的几乎所有的资料，这样就能够实现两台电脑之间数据的云同步。比如在实验室写完论文或做了项目后，可以回宿舍接着干，完全不需要借助微信或U盘传来传去。</p>
 <p>关于以上项目和文件管理方法，唯一的建议是，由于我们这个文件夹是作为编程开发的，因此不要在路径中出现中文字符。总结来讲，就是关于这个文件夹，及其所有根目录内，不要用中文命名（其实这个年代很多软件都支持了，只是保险起见），最好也不要出现空格等字符，只用英文字母和下划线是最好的了。</p>
 <p>好，现在假设你已经建立好一个相应的目录，此时在VSCode的菜单栏中点击“文件—打开文件夹”，打开刚才创建地Python项目文件夹，如果VSCode有弹窗，就选择“信任”。以后关于Python的学习和开发，都放在这个文件夹中进行。首先，我们在VSCode左侧的资源管理器中点击“新建文件夹”，建立一个文件夹名为<code>learn</code>；然后，在这个文件夹下建立一个文件，命名为<code>myLearnScripts.ipynb</code>，当然文件名可以随便起，后缀名采用<code>.ipynb</code>，是为了使用Jupyter Notebook。由于我们之前已经安装了Jupyter Notebook，因此当打开这个文件后，我们可以直接使用这个交互环境。像上次一样，在代码行输入<code>print('Hello, Python!')</code>，就能够得到想要的结果。</p>
-<p><img src="vscode-interface.png" alt="VSCode界面"></p>
+<p>
+
+  <figure>
+  <img src="/docs/learnpython/chapter-3-configure-ide/IMG-20230903001134620.png" alt="VSCode界面" />
+  
+</figure></p>
 <p>另外，如果第一次运行时出现类似这样的报错：</p>
 <pre><code>Failed to start the Kernel. 
 C:\Users\遇瑶\AppData\Roaming\Python\Python310\site-packages\traitlets\traitlets.py:2202: 
@@ -383,9 +390,19 @@ You can use 'hmac-sha256' instead of '&quot;hmac-sha256&quot;' if you require tr
 </code></pre>
 <p>我从网上查到的原因，说是有一个扩展包<code>pyzmq</code>版本太新了，退回旧的版本就好了。只需要两行命令，就能解决问题。</p>
 <p>如下图所示，找到“显示面板”并点击：</p>
-<p><img src="vscode-cmd.png" alt="VSCode-cmd"></p>
+<p>
+
+  <figure>
+  <img src="/docs/learnpython/chapter-3-configure-ide/IMG-20230903001134693.png" alt="VSCode-cmd" />
+  
+</figure></p>
 <p>从而调出Powershell控制终端，如下图所示。</p>
-<p><img src="vscode-pip-uninstall-pyzmq.png" alt="VSCode-cmd"></p>
+<p>
+
+  <figure>
+  <img src="/docs/learnpython/chapter-3-configure-ide/IMG-20230903001134757.png" alt="VSCode-cmd" />
+  
+</figure></p>
 <p>在终端内输出以下代码：</p>
 <pre><code class="language-cmd">pip uninstall pyzmq # 卸载pyzmq
 pip install pyzmq==19.0.2 #安装pyzmq19.0.2版本

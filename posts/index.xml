@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 遥想</title>
+    <title>随笔 on 遥想</title>
     <link>https://afinezyboy.github.io/posts/</link>
-    <description>Recent content in Posts on 遥想</description>
+    <description>Recent content in 随笔 on 遥想</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2022 Yu Zhang
 </copyright>
-    <lastBuildDate>Sat, 16 Apr 2022 15:48:11 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Aug 2023 23:27:52 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>挪威游记</title>
+      <link>https://afinezyboy.github.io/posts/norway-tour/</link>
+      <pubDate>Thu, 17 Aug 2023 23:27:52 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/norway-tour/</guid>
+      <description>启程 | Departure 08/16, Day 1: Shanghai-Dubai-Copenhagen-Trondheim 世界很大，真应该出去看看。增长见识只是一个很泛的目的。增长见识是为了什么？似乎并没有</description>
+    </item>
+    
     <item>
       <title>真实的我</title>
       <link>https://afinezyboy.github.io/posts/true-thinking/</link>
@@ -20,10 +29,10 @@
     
     <item>
       <title>征服或是被征服</title>
-      <link>https://afinezyboy.github.io/posts/to-conquer-or-be-conquered/</link>
+      <link>https://afinezyboy.github.io/posts/to-conquer/</link>
       <pubDate>Sun, 10 Apr 2022 16:53:24 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/posts/to-conquer-or-be-conquered/</guid>
+      <guid>https://afinezyboy.github.io/posts/to-conquer/</guid>
       <description>生活、事业、内心，你不征服它，它就要征服你。 每当你有丝毫松懈的时候，它就活跃起来，在不知不觉中，渗透</description>
     </item>
     

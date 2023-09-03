@@ -15,7 +15,7 @@
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-1-basic/</guid>
-      <description>开始部署 安装 Hugo的使用方法很简单，从Github上直接下载release版本并安装就能使用，比基</description>
+      <description>开始部署 安装 Hugo 的使用方法很简单，从Github上直接下载 release版本 并安装就能使用，比基于动态</description>
     </item>
     
     <item>
@@ -37,12 +37,12 @@
     </item>
     
     <item>
-      <title>Chapter 4 功能Wiki</title>
-      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-modules/</link>
+      <title>Chapter 4 功能</title>
+      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-module/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-modules/</guid>
-      <description>嵌入网易云音乐 &amp;lt;iframe frameborder=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; marginwidth=&amp;quot;0&amp;quot; marginheight=&amp;quot;0&amp;quot; width=330 height=86 src=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=416385506&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;</description>
+      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-module/</guid>
+      <description>测试 嵌入网易云音乐 &amp;lt;iframe frameborder=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; marginwidth=&amp;quot;0&amp;quot; marginheight=&amp;quot;0&amp;quot; width=330 height=86 src=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=416385506&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt; 与Obsidian搭配的完美使用方案 使用render-hooks</description>
     </item>
     
   </channel>

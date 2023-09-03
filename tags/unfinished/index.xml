@@ -8,14 +8,59 @@
     <language>en</language>
     <copyright>&amp;copy; 2022 Yu Zhang
 </copyright>
-    <lastBuildDate>Sun, 20 Mar 2022 08:41:14 +0800</lastBuildDate><atom:link href="https://afinezyboy.github.io/tags/unfinished/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://afinezyboy.github.io/tags/unfinished/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>斯坦福高效睡眠法</title>
-      <link>https://afinezyboy.github.io/reading/stanford-sleep/</link>
+      <title>视频 | 做科研要有成果转化</title>
+      <link>https://afinezyboy.github.io/shares/video-achievements-transformation/</link>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/shares/video-achievements-transformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>视频 | 学术会议是否值得开</title>
+      <link>https://afinezyboy.github.io/shares/video-conferences/</link>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/shares/video-conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>视频 | 要么学习，要么赚钱</title>
+      <link>https://afinezyboy.github.io/shares/video-learning-and-earning/</link>
+      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/shares/video-learning-and-earning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>挪威游记</title>
+      <link>https://afinezyboy.github.io/posts/norway-tour/</link>
+      <pubDate>Thu, 17 Aug 2023 23:27:52 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/norway-tour/</guid>
+      <description>启程 | Departure 08/16, Day 1: Shanghai-Dubai-Copenhagen-Trondheim 世界很大，真应该出去看看。增长见识只是一个很泛的目的。增长见识是为了什么？似乎并没有</description>
+    </item>
+    
+    <item>
+      <title>读书 | 斯坦福高效睡眠法</title>
+      <link>https://afinezyboy.github.io/shares/book-stanford-sleep/</link>
       <pubDate>Sun, 20 Mar 2022 08:41:14 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/reading/stanford-sleep/</guid>
+      <guid>https://afinezyboy.github.io/shares/book-stanford-sleep/</guid>
       <description>本书的作者是一位日本人，同时也是斯坦福大学睡眠中心的教授。在引言部分，作者为我们介绍了一个概念：睡得</description>
+    </item>
+    
+    <item>
+      <title>电气 | 风机前端建模</title>
+      <link>https://afinezyboy.github.io/ee-posts/20230903-wt-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/ee-posts/20230903-wt-model/</guid>
+      <description>关于风电机组MPPT控制的两种不同实现方法，及其对于电压源控制的仿真发现 今天对风电机组的两种MPPT</description>
     </item>
     
   </channel>

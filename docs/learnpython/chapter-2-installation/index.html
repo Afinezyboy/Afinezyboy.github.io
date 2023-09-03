@@ -83,7 +83,7 @@
   "itemListElement": [{
       "@type": "ListItem",
       "position": 1 ,
-      "name":"Docs",
+      "name":"文档",
       "item":"https://afinezyboy.github.io/docs/"},{
       "@type": "ListItem",
       "position": 2 ,
@@ -179,10 +179,12 @@
         class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
         <div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0">
             <a href="/#about" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">主页</a>
-            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">随想</a>
-            <a href="/reading/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">读书</a>
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">随笔</a>
+            <a href="/shares/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">分享</a>
+            <a href="/ee-posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">知识</a>
+            <a href="/techs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">技术</a>
             <a href="/docs/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  me-4">文档</a>
-            <a href="/memories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">彩蛋！</a>
+            <a href="/memories/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  me-4">彩蛋</a>
         </div>
 
         <div class="flex">
@@ -344,9 +346,19 @@
 
   <h2 id="安装python">安装Python</h2>
 <p>安装Python非常非常简单，并且免费。访问这个网站：https://www.python.org/downloads/windows/，点击“Latest Python 3 Release”上的链接，就能得到最新的Python3版本。当进来后，网页拉到最下方，点击“Windows installer (64-bit)”，即可开始下载。下载后双击即可安装。</p>
-<p><img src="IMG-20230806132220207.png" alt="download python"></p>
+<p>
+
+  <figure>
+  <img src="/docs/learnhugo/chapter-4-test-module/IMG-20230903022549462.png" alt="download python" />
+  
+</figure></p>
 <p>此处，唯一需要注意的是，Python运行需要依赖“环境变量”（Windows设置路径的一个机制），好在最新版本的Python能够帮我们自动配置环境变量。在安装时，在“Advanced Options”种注意勾选“Add Python to environment variables”。</p>
-<p><img src="IMG-20230806132220219.png" alt="install python"></p>
+<p>
+
+  <figure>
+  <img src="/docs/learnpython/chapter-2-installation/IMG-20230903001134942.png" alt="install python" />
+  
+</figure></p>
 <p>当安装完毕后，打开windows的命令提示行（可以在左下角搜索栏输入“cmd”），输入<code>python</code>，如果得到如下输出：</p>
 <pre><code>C:\Users\XXX&gt;python
 Python 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)] on win32

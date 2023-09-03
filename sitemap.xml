@@ -2,14 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://afinezyboy.github.io/docs/chatgpt/</loc>
-    <lastmod>2023-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/docs/</loc>
-    <lastmod>2023-03-12T00:00:00+00:00</lastmod>
+    <loc>https://afinezyboy.github.io/ee-posts/20230902-pll-tss-model/</loc>
+    <lastmod>2023-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/</loc>
+    <lastmod>2023-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/ee-posts/20230831-pr-control/</loc>
+    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/tags/</loc>
+    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/tags/unfinished/</loc>
+    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/shares/</loc>
+    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/shares/video-achievements-transformation/</loc>
+    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/shares/video-love-yourself/</loc>
+    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/shares/video-conferences/</loc>
+    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/shares/video-learning-and-earning/</loc>
+    <lastmod>2023-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/posts/norway-tour/</loc>
+    <lastmod>2023-08-17T23:27:52+08:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/posts/</loc>
+    <lastmod>2023-08-17T23:27:52+08:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/techs/chatgpt/</loc>
     <lastmod>2023-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/techs/</loc>
+    <lastmod>2023-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/techs/featured-website/</loc>
+    <lastmod>2022-09-23T20:54:19+08:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/memories/forever-young/</loc>
     <lastmod>2022-06-12T00:00:00+08:00</lastmod>
@@ -17,46 +53,34 @@
     <loc>https://afinezyboy.github.io/memories/</loc>
     <lastmod>2022-06-12T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/posts/</loc>
-    <lastmod>2022-04-16T15:48:11+08:00</lastmod>
-  </url><url>
     <loc>https://afinezyboy.github.io/posts/true-thinking/</loc>
     <lastmod>2022-04-16T15:48:11+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/posts/to-conquer-or-be-conquered/</loc>
+    <loc>https://afinezyboy.github.io/posts/to-conquer/</loc>
     <lastmod>2022-04-10T16:53:24+08:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/posts/marta-words/</loc>
     <lastmod>2022-03-30T12:15:12+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/tags/</loc>
+    <loc>https://afinezyboy.github.io/shares/book-stanford-sleep/</loc>
     <lastmod>2022-03-20T08:41:14+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/tags/unfinished/</loc>
-    <lastmod>2022-03-20T08:41:14+08:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/reading/stanford-sleep/</loc>
-    <lastmod>2022-03-20T08:41:14+08:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/reading/</loc>
-    <lastmod>2022-03-20T08:41:14+08:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/docs/collections/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://afinezyboy.github.io/techs/learn-git/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/docs/collections/latex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://afinezyboy.github.io/techs/learn-latex/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/docs/collections/matlab-simulink/</loc>
+    <loc>https://afinezyboy.github.io/techs/matlab-simulink/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/docs/collections/pscad%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://afinezyboy.github.io/techs/pscad/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/posts/academic-plan/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/docs/collections/my-workflow/</loc>
+    <loc>https://afinezyboy.github.io/techs/my-workflow/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/posts/my-life-schedule/</loc>
@@ -71,13 +95,16 @@
     <loc>https://afinezyboy.github.io/docs/learnpython/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/docs/collections/</loc>
+    <loc>https://afinezyboy.github.io/docs/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/docs/eureka-how/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/docs/learnhugo/</loc>
+    <lastmod>2022-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/ee-posts/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/posts/einstein/</loc>
@@ -122,7 +149,7 @@
     <loc>https://afinezyboy.github.io/docs/learnpython/chapter-3-configure-ide/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-modules/</loc>
+    <loc>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-module/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/categories/</loc>
@@ -154,5 +181,15 @@
   </url><url>
     <loc>https://afinezyboy.github.io/docs/eureka-how/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/_main/homepage/</loc>
+  </url><url>
+    <loc>https://afinezyboy.github.io/ee-papers/5-stability-issue/</loc>
+  </url><url>
+    <loc>https://afinezyboy.github.io/ee-papers/</loc>
+  </url><url>
+    <loc>https://afinezyboy.github.io/_main/</loc>
+  </url><url>
+    <loc>https://afinezyboy.github.io/ee-posts/20230903-wt-model/</loc>
   </url>
 </urlset>

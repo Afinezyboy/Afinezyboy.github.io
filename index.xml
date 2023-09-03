@@ -8,14 +8,86 @@
     <language>en</language>
     <copyright>&amp;copy; 2022 Yu Zhang
 </copyright>
-    <lastBuildDate>Sun, 12 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://afinezyboy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://afinezyboy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电气 | 锁相环数学模型的探讨</title>
+      <link>https://afinezyboy.github.io/ee-posts/20230902-pll-tss-model/</link>
+      <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/ee-posts/20230902-pll-tss-model/</guid>
+      <description>今天看了西安交通大学李宇骏副教授的汇报，其中有一篇论文是讲锁相环在频率限幅的情况下，只要限幅值穿过稳</description>
+    </item>
+    
+    <item>
+      <title>电气 | 比例谐振（PR）控制</title>
+      <link>https://afinezyboy.github.io/ee-posts/20230831-pr-control/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/ee-posts/20230831-pr-control/</guid>
+      <description>比例谐振控制的传递函数为： $$ G_{PR}(s) = k_{p} + \frac{k_{r} \omega_{n} s}{s^2+\omega_{n}^2} $$ 我们可以让$k_{r} = 2 k_{p}\xi$，于是上式可</description>
+    </item>
+    
+    <item>
+      <title>视频 | 做科研要有成果转化</title>
+      <link>https://afinezyboy.github.io/shares/video-achievements-transformation/</link>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/shares/video-achievements-transformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>视频 | 如何激励自己</title>
+      <link>https://afinezyboy.github.io/shares/video-love-yourself/</link>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/shares/video-love-yourself/</guid>
+      <description>壹 这段时间一直一个人待着，终于实现了从小一直的愿望，但我过的却并不快乐。 有时，我能够集中注意力干很久</description>
+    </item>
+    
+    <item>
+      <title>视频 | 学术会议是否值得开</title>
+      <link>https://afinezyboy.github.io/shares/video-conferences/</link>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/shares/video-conferences/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>视频 | 要么学习，要么赚钱</title>
+      <link>https://afinezyboy.github.io/shares/video-learning-and-earning/</link>
+      <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/shares/video-learning-and-earning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>挪威游记</title>
+      <link>https://afinezyboy.github.io/posts/norway-tour/</link>
+      <pubDate>Thu, 17 Aug 2023 23:27:52 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/posts/norway-tour/</guid>
+      <description>启程 | Departure 08/16, Day 1: Shanghai-Dubai-Copenhagen-Trondheim 世界很大，真应该出去看看。增长见识只是一个很泛的目的。增长见识是为了什么？似乎并没有</description>
+    </item>
+    
     <item>
       <title>ChatGPT</title>
-      <link>https://afinezyboy.github.io/docs/chatgpt/</link>
+      <link>https://afinezyboy.github.io/techs/chatgpt/</link>
       <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://afinezyboy.github.io/docs/chatgpt/</guid>
+      <guid>https://afinezyboy.github.io/techs/chatgpt/</guid>
       <description>什么是ChatGPT 以下内容直接使用ChatGPT生成 ChatGPT是一个基于自然语言处理技术的聊天</description>
+    </item>
+    
+    <item>
+      <title>网站索引</title>
+      <link>https://afinezyboy.github.io/techs/featured-website/</link>
+      <pubDate>Fri, 23 Sep 2022 20:54:19 +0800</pubDate>
+      
+      <guid>https://afinezyboy.github.io/techs/featured-website/</guid>
+      <description>学术 IEEE Benchmarks 简单网络： Power Systems Test Case Archive - UWEE 更多数据(Github)： power-grid-lib/pglib-opf: Benchmarks for the Optimal Power Flow Problem (github.com) Modified IEEE benchmark: Dynamic IEEE Test Systems (ucy.ac.cy) 数据 能源</description>
     </item>
     
     <item>
@@ -38,10 +110,10 @@
     
     <item>
       <title>征服或是被征服</title>
-      <link>https://afinezyboy.github.io/posts/to-conquer-or-be-conquered/</link>
+      <link>https://afinezyboy.github.io/posts/to-conquer/</link>
       <pubDate>Sun, 10 Apr 2022 16:53:24 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/posts/to-conquer-or-be-conquered/</guid>
+      <guid>https://afinezyboy.github.io/posts/to-conquer/</guid>
       <description>生活、事业、内心，你不征服它，它就要征服你。 每当你有丝毫松懈的时候，它就活跃起来，在不知不觉中，渗透</description>
     </item>
     
@@ -55,47 +127,47 @@
     </item>
     
     <item>
-      <title>斯坦福高效睡眠法</title>
-      <link>https://afinezyboy.github.io/reading/stanford-sleep/</link>
+      <title>读书 | 斯坦福高效睡眠法</title>
+      <link>https://afinezyboy.github.io/shares/book-stanford-sleep/</link>
       <pubDate>Sun, 20 Mar 2022 08:41:14 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/reading/stanford-sleep/</guid>
+      <guid>https://afinezyboy.github.io/shares/book-stanford-sleep/</guid>
       <description>本书的作者是一位日本人，同时也是斯坦福大学睡眠中心的教授。在引言部分，作者为我们介绍了一个概念：睡得</description>
     </item>
     
     <item>
       <title>Git学习笔记</title>
-      <link>https://afinezyboy.github.io/docs/collections/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://afinezyboy.github.io/techs/learn-git/</link>
       <pubDate>Sat, 19 Mar 2022 23:27:52 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/docs/collections/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://afinezyboy.github.io/techs/learn-git/</guid>
       <description>gitignore 开始前，建议先保存一个.gitignore文件，用来声明哪些文件不用于版本控制。 关于gitigno</description>
     </item>
     
     <item>
       <title>Latex学习笔记</title>
-      <link>https://afinezyboy.github.io/docs/collections/latex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://afinezyboy.github.io/techs/learn-latex/</link>
       <pubDate>Sat, 19 Mar 2022 23:27:52 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/docs/collections/latex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://afinezyboy.github.io/techs/learn-latex/</guid>
       <description>环境 VSCode配置 下载latex-workshop 在“首选项-设置-扩展-Latex”中，输入以下</description>
     </item>
     
     <item>
       <title>MATLAB/Simulink学习笔记</title>
-      <link>https://afinezyboy.github.io/docs/collections/matlab-simulink/</link>
+      <link>https://afinezyboy.github.io/techs/matlab-simulink/</link>
       <pubDate>Sat, 19 Mar 2022 23:27:52 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/docs/collections/matlab-simulink/</guid>
+      <guid>https://afinezyboy.github.io/techs/matlab-simulink/</guid>
       <description>ODE求解 ODE设置：odeset 格式： opts = odeset(&#39;RelTol&#39;, 1e-5, &#39;AbsTol&#39;, 1e-7,... &#39;Events&#39;, @(t,x) myevent(t,x), &#39;OutputFcn&#39;,@odeplot); 用法： 利用ODE求解需要利用odeset</description>
     </item>
     
     <item>
       <title>PSCAD文档</title>
-      <link>https://afinezyboy.github.io/docs/collections/pscad%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://afinezyboy.github.io/techs/pscad/</link>
       <pubDate>Sat, 19 Mar 2022 23:27:52 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/docs/collections/pscad%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://afinezyboy.github.io/techs/pscad/</guid>
       <description>自定义模块编程 规范 已有变量 名称 符号 仿真时间 TIME 仿真步长 DELT 普通变量 定义局部变量： #LOCAL REAL var1,var2,var3 定义输出变量OUT</description>
     </item>
     
@@ -110,10 +182,10 @@
     
     <item>
       <title>我的工作流</title>
-      <link>https://afinezyboy.github.io/docs/collections/my-workflow/</link>
+      <link>https://afinezyboy.github.io/techs/my-workflow/</link>
       <pubDate>Sat, 19 Mar 2022 23:27:52 +0800</pubDate>
       
-      <guid>https://afinezyboy.github.io/docs/collections/my-workflow/</guid>
+      <guid>https://afinezyboy.github.io/techs/my-workflow/</guid>
       <description>以下内容记录了我的工作流，包含一些工作方面的小Tips。 电脑操作 Windows全装机 U盘启动盘准备 去</description>
     </item>
     
@@ -195,7 +267,7 @@
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-1-basic/</guid>
-      <description>开始部署 安装 Hugo的使用方法很简单，从Github上直接下载release版本并安装就能使用，比基</description>
+      <description>开始部署 安装 Hugo 的使用方法很简单，从Github上直接下载 release版本 并安装就能使用，比基于动态</description>
     </item>
     
     <item>
@@ -244,12 +316,12 @@
     </item>
     
     <item>
-      <title>Chapter 4 功能Wiki</title>
-      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-modules/</link>
+      <title>Chapter 4 功能</title>
+      <link>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-module/</link>
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-modules/</guid>
-      <description>嵌入网易云音乐 &amp;lt;iframe frameborder=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; marginwidth=&amp;quot;0&amp;quot; marginheight=&amp;quot;0&amp;quot; width=330 height=86 src=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=416385506&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;</description>
+      <guid>https://afinezyboy.github.io/docs/learnhugo/chapter-4-test-module/</guid>
+      <description>测试 嵌入网易云音乐 &amp;lt;iframe frameborder=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; marginwidth=&amp;quot;0&amp;quot; marginheight=&amp;quot;0&amp;quot; width=330 height=86 src=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=416385506&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt; 与Obsidian搭配的完美使用方案 使用render-hooks</description>
     </item>
     
     <item>
@@ -286,6 +358,24 @@
       
       <guid>https://afinezyboy.github.io/docs/eureka-how/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://afinezyboy.github.io/_main/homepage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/_main/homepage/</guid>
+      <description>进行中 | Going On 满足draft=false或者tags中包含unfinished，不包含_archive</description>
+    </item>
+    
+    <item>
+      <title>电气 | 风机前端建模</title>
+      <link>https://afinezyboy.github.io/ee-posts/20230903-wt-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://afinezyboy.github.io/ee-posts/20230903-wt-model/</guid>
+      <description>关于风电机组MPPT控制的两种不同实现方法，及其对于电压源控制的仿真发现 今天对风电机组的两种MPPT</description>
     </item>
     
   </channel>
