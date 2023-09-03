@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://afinezyboy.github.io/ee-posts/20230902-pll-tss-model/</loc>
+    <loc>https://afinezyboy.github.io/ee-posts/pll-tss-model/</loc>
     <lastmod>2023-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/</loc>
     <lastmod>2023-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/ee-posts/20230831-pr-control/</loc>
+    <loc>https://afinezyboy.github.io/ee-posts/pr-control/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/tags/</loc>
@@ -80,7 +80,7 @@
     <loc>https://afinezyboy.github.io/posts/academic-plan/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/techs/my-workflow/</loc>
+    <loc>https://afinezyboy.github.io/techs/pc-tips/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/posts/my-life-schedule/</loc>
@@ -190,6 +190,6 @@
   </url><url>
     <loc>https://afinezyboy.github.io/_main/</loc>
   </url><url>
-    <loc>https://afinezyboy.github.io/ee-posts/20230903-wt-model/</loc>
+    <loc>https://afinezyboy.github.io/ee-posts/wt-model/</loc>
   </url>
 </urlset>
