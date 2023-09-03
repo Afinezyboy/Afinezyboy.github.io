@@ -11,28 +11,28 @@
     <lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://afinezyboy.github.io/ee-posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>电气 | 锁相环数学模型的探讨</title>
-      <link>https://afinezyboy.github.io/ee-posts/pll-tss-model/</link>
+      <link>https://afinezyboy.github.io/ee-posts/ee-pll-tss-model/</link>
       <pubDate>Sat, 02 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://afinezyboy.github.io/ee-posts/pll-tss-model/</guid>
+      <guid>https://afinezyboy.github.io/ee-posts/ee-pll-tss-model/</guid>
       <description>今天看了西安交通大学李宇骏副教授的汇报，其中有一篇论文是讲锁相环在频率限幅的情况下，只要限幅值穿过稳</description>
     </item>
     
     <item>
       <title>电气 | 比例谐振（PR）控制</title>
-      <link>https://afinezyboy.github.io/ee-posts/pr-control/</link>
+      <link>https://afinezyboy.github.io/ee-posts/ee-pr-control/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://afinezyboy.github.io/ee-posts/pr-control/</guid>
+      <guid>https://afinezyboy.github.io/ee-posts/ee-pr-control/</guid>
       <description>比例谐振控制的传递函数为： $$ G_{PR}(s) = k_{p} + \frac{k_{r} \omega_{n} s}{s^2+\omega_{n}^2} $$ 我们可以让$k_{r} = 2 k_{p}\xi$，于是上式可</description>
     </item>
     
     <item>
       <title>电气 | 风机前端建模</title>
-      <link>https://afinezyboy.github.io/ee-posts/wind-turbine-model/</link>
+      <link>https://afinezyboy.github.io/ee-posts/ee-wt-model/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://afinezyboy.github.io/ee-posts/wind-turbine-model/</guid>
+      <guid>https://afinezyboy.github.io/ee-posts/ee-wt-model/</guid>
       <description>关于风电机组MPPT控制的两种不同实现方法，及其对于电压源控制的仿真发现 今天对风电机组的两种MPPT</description>
     </item>
     
