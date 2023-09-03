@@ -283,7 +283,7 @@ figure; bode(sys_PR)
 <p>
 
   <figure>
-  <img src="/ee-posts/PR-control/IMG-20230903001134374.png" alt="PR控制的伯德图" />
+  <img src="/ee-posts/pr-control/IMG-20230903001134374.png" alt="PR控制的伯德图" />
   
 </figure></p>
 <p>可以看出，其只在$100\pi\mathrm{rad/s(50Hz)}$处有无穷大增益，其他频段没有影响；$\xi$ 的大小（即谐振增益 $k_{r}$）主要影响谐振频率附近的相位。另一方面，被控对象是变流器的滤波器，在标幺制下的传递函数为：</p>
@@ -307,7 +307,7 @@ figure; bode(sys_PR*sys_filter*sys_delay)
 <p>
 
   <figure>
-  <img src="/ee-posts/PR-control/IMG-20230903001134444.png" alt="" />
+  <img src="/ee-posts/pr-control/IMG-20230903001134444.png" alt="" />
   
 </figure></p>
 <p>我们需要根据图中所示的关系确定 $k_p$ 的大小，从而整定出所需的穿越频率 $\omega_{c}$ 。由于 $\omega_{c}$ 通常距离滤波器的转折频率较远，因此我们可以忽略电阻的影响，同时忽略PR谐振点的影响，得到：</p>
@@ -327,7 +327,7 @@ $$</p>
 <p>
 
   <figure>
-  <img src="/ee-posts/PR-control/IMG-20230903001134509.png" alt="" />
+  <img src="/ee-posts/pr-control/IMG-20230903001134509.png" alt="" />
   
 </figure></p>
 
@@ -357,7 +357,7 @@ $$</p>
     <div class="mt-4 md:mt-0 md:text-right">
       
         <span class="text-primary-text block font-bold">Next</span>
-        <a href="https://afinezyboy.github.io/ee-posts/wt-model/" class="block">电气 | 风机前端建模</a>
+        <a href="https://afinezyboy.github.io/ee-posts/wind-turbine-model/" class="block">电气 | 风机前端建模</a>
       
     </div>
   </div>
