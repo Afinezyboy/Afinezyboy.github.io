@@ -54,14 +54,5 @@
       <description>本书的作者是一位日本人，同时也是斯坦福大学睡眠中心的教授。在引言部分，作者为我们介绍了一个概念：睡得</description>
     </item>
     
-    <item>
-      <title>电气 | 风机前端建模</title>
-      <link>https://afinezyboy.github.io/ee-posts/ee-wt-model/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://afinezyboy.github.io/ee-posts/ee-wt-model/</guid>
-      <description>关于风电机组MPPT控制的两种不同实现方法，及其对于电压源控制的仿真发现 今天对风电机组的两种MPPT</description>
-    </item>
-    
   </channel>
 </rss>

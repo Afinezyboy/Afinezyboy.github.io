@@ -102,7 +102,7 @@
         "@type": "WebPage",
         "@id": "https://afinezyboy.github.io/_main/homepage/"
     },
-    "headline": "遥想","wordCount":  722 ,
+    "headline": "遥想","wordCount":  640 ,
     "publisher": {
         "@type": "Person",
         "name": "Y. Zhang",
@@ -272,16 +272,6 @@ where (contains(tags, &quot;unfinished&quot;) or draft)
 sort date desc
 </code></pre>
 <h2 id="文档--docs">文档 | Docs</h2>
-<h3 id="电气--ee">电气 | EE</h3>
-<pre><code class="language-dataview">table without ID
-	title as &quot;标题&quot;,
-	file.link as &quot;文件&quot;,
-	dateformat(date,&quot;yyyy-MM-dd&quot;) as &quot;日期&quot;,
-	draft as &quot;草稿&quot;
-from &quot;ee-posts&quot; 
-where !contains(file.name, &quot;_index&quot;)
-sort title asc
-</code></pre>
 <h3 id="hugo">Hugo</h3>
 <pre><code class="language-dataview">table without ID
 	title as &quot;标题&quot;,

@@ -46,24 +46,6 @@
     </item>
     
     <item>
-      <title>MATLAB/Simulink学习笔记</title>
-      <link>https://afinezyboy.github.io/techs/matlab-simulink/</link>
-      <pubDate>Sat, 19 Mar 2022 23:27:52 +0800</pubDate>
-      
-      <guid>https://afinezyboy.github.io/techs/matlab-simulink/</guid>
-      <description>ODE求解 ODE设置：odeset 格式： opts = odeset(&#39;RelTol&#39;, 1e-5, &#39;AbsTol&#39;, 1e-7,... &#39;Events&#39;, @(t,x) myevent(t,x), &#39;OutputFcn&#39;,@odeplot); 用法： 利用ODE求解需要利用odeset</description>
-    </item>
-    
-    <item>
-      <title>PSCAD文档</title>
-      <link>https://afinezyboy.github.io/techs/pscad/</link>
-      <pubDate>Sat, 19 Mar 2022 23:27:52 +0800</pubDate>
-      
-      <guid>https://afinezyboy.github.io/techs/pscad/</guid>
-      <description>自定义模块编程 规范 已有变量 名称 符号 仿真时间 TIME 仿真步长 DELT 普通变量 定义局部变量： #LOCAL REAL var1,var2,var3 定义输出变量OUT</description>
-    </item>
-    
-    <item>
       <title>电脑操作技巧</title>
       <link>https://afinezyboy.github.io/techs/pc-tips/</link>
       <pubDate>Sat, 19 Mar 2022 23:27:52 +0800</pubDate>

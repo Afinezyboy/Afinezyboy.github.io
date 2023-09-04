@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://afinezyboy.github.io/ee-posts/ee-pll-tss-model/</loc>
-    <lastmod>2023-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/</loc>
-    <lastmod>2023-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/ee-posts/ee-pr-control/</loc>
-    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://afinezyboy.github.io/tags/</loc>
     <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -27,6 +18,9 @@
     <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/shares/video-conferences/</loc>
+    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/</loc>
     <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/shares/video-learning-and-earning/</loc>
@@ -71,12 +65,6 @@
     <loc>https://afinezyboy.github.io/techs/learn-latex/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
-    <loc>https://afinezyboy.github.io/techs/matlab-simulink/</loc>
-    <lastmod>2022-03-19T23:27:52+08:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/techs/pscad/</loc>
-    <lastmod>2022-03-19T23:27:52+08:00</lastmod>
-  </url><url>
     <loc>https://afinezyboy.github.io/posts/academic-plan/</loc>
     <lastmod>2022-03-19T23:27:52+08:00</lastmod>
   </url><url>
@@ -102,9 +90,6 @@
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/docs/learnhugo/</loc>
-    <lastmod>2022-03-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/ee-posts/</loc>
     <lastmod>2022-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/posts/einstein/</loc>
@@ -184,12 +169,6 @@
   </url><url>
     <loc>https://afinezyboy.github.io/_main/homepage/</loc>
   </url><url>
-    <loc>https://afinezyboy.github.io/ee-papers/5-stability-issue/</loc>
-  </url><url>
-    <loc>https://afinezyboy.github.io/ee-papers/</loc>
-  </url><url>
     <loc>https://afinezyboy.github.io/_main/</loc>
-  </url><url>
-    <loc>https://afinezyboy.github.io/ee-posts/ee-wt-model/</loc>
   </url>
 </urlset>
