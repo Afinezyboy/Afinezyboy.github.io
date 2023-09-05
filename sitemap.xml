@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://afinezyboy.github.io/shares/</loc>
+    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/shares/book-life-v3/</loc>
+    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://afinezyboy.github.io/</loc>
+    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://afinezyboy.github.io/tags/</loc>
     <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/tags/unfinished/</loc>
-    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/shares/</loc>
     <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/shares/video-achievements-transformation/</loc>
@@ -18,9 +24,6 @@
     <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/shares/video-conferences/</loc>
-    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://afinezyboy.github.io/</loc>
     <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://afinezyboy.github.io/shares/video-learning-and-earning/</loc>
